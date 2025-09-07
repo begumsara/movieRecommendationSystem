@@ -6,7 +6,7 @@ It uses **TF-IDF Vectorization** and **Cosine Similarity** to calculate similari
 
 - 📂 **movieRecommendApp.py** → Streamlit web app  
 - 📂 **movieRecommend.ipynb** → Jupyter Notebook (model explanation + experiments)  
-- 📂 **movies.csv** → Dataset from Kaggle  
+- 📂 **movies.csv** → Dataset (scraped from IMDB)  
 - 📂 **poster.jpeg** → Poster image displayed in the web app  
 
 ---
@@ -20,11 +20,11 @@ It uses **TF-IDF Vectorization** and **Cosine Similarity** to calculate similari
 
 ---
 
-## 📊 Dataset  
-The dataset is from Kaggle:  
-👉 [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)  
+## 📊 Data Collection  
+The dataset was collected via **web scraping from IMDB**.  
+👉 Detailed scraping code can be found here: [IMDB Movies Scraper Repository](https://github.com/begumsara/imdbMovies)  
 
-It contains **4803 movies** with metadata including:  
+The dataset contains thousands of movies with metadata including:  
 - 🎭 Genres  
 - 📝 Keywords  
 - 🎬 Cast & Director  
@@ -78,3 +78,4 @@ Output:
 
 ## 📜 License  
 This project is licensed under the MIT License.  
+Data was scraped from IMDB and is used **only for educational and research purposes**.  
